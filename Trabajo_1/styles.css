@@ -1,0 +1,48 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    background-color: #7c7c7c;
+}
+
+h1{
+    color: #ffffff;
+    text-align: center;
+}
+
+/* estilo para todos los formularios: */
+form{
+    background-color:#FFF;
+    /*  margen interno   */
+    padding:8px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgb(161, 6, 6);
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: box-shadow 0.3s ease;
+    max-width: 400px;
+}
+
+/* estilo para elementos de la clase "form-group*/
+.form-group
+{
+    margin-bottom: 10px;
+}
+label{
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+label:hover{
+    color: red;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 2px;
+    border-radius: 4px;
+    border: solid 1px red;
+    box-sizing: border-box;
+    font-size: 1em; 
+}
